@@ -8,8 +8,6 @@ while True:
     
     qtd_lugares = int(input("Quantos lugares:"))
 
-    
-
     for i, sala in enumerate(salas):
         if sala_solicitada == sala:
             if qtd_lugares <= lugares_vagos[i]:
