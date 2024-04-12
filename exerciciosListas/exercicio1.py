@@ -11,7 +11,6 @@ for numero in lista:
     if numero < 0:
         soma = soma + numero
     
-
 print(f"Maior número da lista: {max(lista)}");
 print(f"Menor número da lista: {min(lista)}");
 print(f"Números pares:{numeros_pares}");
